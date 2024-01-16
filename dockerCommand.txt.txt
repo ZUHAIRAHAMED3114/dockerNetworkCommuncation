@@ -1,3 +1,7 @@
+TO Run Monogdb container
+-----------------------
+$ docker run --name mongodb --rm -d -p 27017:27017 mongo
+
 BUILD node js 
 ---------
 docker build -t backend:V1 .
