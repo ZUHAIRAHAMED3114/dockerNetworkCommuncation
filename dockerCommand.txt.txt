@@ -1,0 +1,7 @@
+BUILD node js 
+---------
+docker build -t backend:V1 .
+
+To Run above nodejs Container
+------------------------------
+docker run -d -p 5000:8888 --name server1 backend:v1
